@@ -13,7 +13,7 @@
     },
     methods: {
       onClick () {
-        axios.get('http://www.superdev.top/axios-test/api/test')
+        axios.get('https://www.superdev.top/axios-test/api/test')
           .then(res => {
             console.log(res.data)
           })
